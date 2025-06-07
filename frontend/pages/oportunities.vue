@@ -1,3 +1,3 @@
 <script setup lang="ts"></script>
 
-<template>Landing Page</template>
+<template>Oportunidades</template>

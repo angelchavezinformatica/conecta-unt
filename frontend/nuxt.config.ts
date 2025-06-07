@@ -6,4 +6,5 @@ export default defineNuxtConfig({
   modules: ["@nuxt/icon", "@nuxt/image", "@primevue/nuxt-module"],
   dir: { pages: "routes" },
   vite: { plugins: [tailwindcss()] },
+  css: ["@/assets/css/main.css"],
 });
