@@ -1,0 +1,90 @@
+:root {
+  --color-black: #000000;
+  --color-dark: #161616;
+  --color-primary: #5f78fb;
+  --color-white: #ffffff;
+  --color-light: #f8f8f8;
+  --color-deep-blue: #00309f;
+  --color-accent: #e11027;
+
+  --p-tabs-transition-duration: 0.3s;
+
+  --p-tabs-tablist-border-width: 1px;
+  --p-tabs-tablist-background: var(--color-white);
+  --p-tabs-tablist-border-color: var(--color-light);
+
+  --p-tabs-tab-background: var(--color-light);
+  --p-tabs-tab-hover-background: var(--color-primary);
+  --p-tabs-tab-active-background: var(--color-primary);
+
+  --p-tabs-tab-border-width: 0px;
+  --p-tabs-tab-border-color: transparent;
+  --p-tabs-tab-hover-border-color: var(--color-primary);
+  --p-tabs-tab-active-border-color: var(--color-accent);
+
+  --p-tabs-tab-color: var(--color-black);
+  --p-tabs-tab-hover-color: var(--color-white);
+  --p-tabs-tab-active-color: var(--color-white);
+
+  --p-tabs-tab-padding: 0.75rem 1.25rem;
+  --p-tabs-tab-font-weight: 600;
+  --p-tabs-tab-margin: 0 0.3rem;
+  --p-tabs-tab-gap: 0;
+
+  --p-tabs-tab-focus-ring-width: 2px;
+  --p-tabs-tab-focus-ring-style: solid;
+  --p-tabs-tab-focus-ring-color: var(--color-primary);
+  --p-tabs-tab-focus-ring-offset: 2px;
+  --p-tabs-tab-focus-ring-shadow: 0 0 0 3px rgba(95, 120, 251, 0.3);
+
+  --p-tabs-tabpanel-background: var(--color-white);
+  --p-tabs-tabpanel-color: var(--color-black);
+  --p-tabs-tabpanel-padding: 1.25rem;
+
+  --p-tabs-tabpanel-focus-ring-width: 2px;
+  --p-tabs-tabpanel-focus-ring-style: solid;
+  --p-tabs-tabpanel-focus-ring-color: var(--color-primary);
+  --p-tabs-tabpanel-focus-ring-offset: 2px;
+  --p-tabs-tabpanel-focus-ring-shadow: 0 0 0 3px rgba(95, 120, 251, 0.2);
+
+  --p-tabs-nav-button-background: transparent;
+  --p-tabs-nav-button-color: var(--color-black);
+  --p-tabs-nav-button-hover-color: var(--color-primary);
+  --p-tabs-nav-button-width: 2rem;
+  --p-tabs-nav-button-shadow: none;
+
+  --p-tabs-nav-button-focus-ring-width: 2px;
+  --p-tabs-nav-button-focus-ring-style: solid;
+  --p-tabs-nav-button-focus-ring-color: var(--color-primary);
+  --p-tabs-nav-button-focus-ring-offset: 2px;
+  --p-tabs-nav-button-focus-ring-shadow: 0 0 0 3px rgba(95, 120, 251, 0.3);
+
+  --p-tabs-active-bar-height: 3px;
+  --p-tabs-active-bar-bottom: 0px;
+  --p-tabs-active-bar-background: var(--color-accent);
+}
+
+[data-theme="dark"] {
+  --p-tabs-tablist-background: var(--color-dark);
+  --p-tabs-tablist-border-color: var(--color-black);
+
+  --p-tabs-tab-background: var(--color-dark);
+  --p-tabs-tab-hover-background: var(--color-deep-blue);
+  --p-tabs-tab-active-background: var(--color-primary);
+
+  --p-tabs-tab-border-color: transparent;
+  --p-tabs-tab-hover-border-color: var(--color-primary);
+  --p-tabs-tab-active-border-color: var(--color-accent);
+
+  --p-tabs-tab-color: var(--color-white);
+  --p-tabs-tab-hover-color: var(--color-white);
+  --p-tabs-tab-active-color: var(--color-white);
+
+  --p-tabs-tabpanel-background: var(--color-black);
+  --p-tabs-tabpanel-color: var(--color-white);
+
+  --p-tabs-nav-button-color: var(--color-white);
+  --p-tabs-nav-button-hover-color: var(--color-primary);
+
+  --p-tabs-active-bar-background: var(--color-accent);
+}

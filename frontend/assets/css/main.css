@@ -3,7 +3,7 @@
 
 :root {
   /* LIGHT THEME */
-  --c-background: #ffffff;
+  --c-bg: #ffffff;
   --c-surface: #f8f8f8;
   --c-text: #000000;
   --c-primary: #5f78fb;
@@ -18,7 +18,7 @@
 }
 
 [data-theme="dark"] {
-  --c-background: #161616;
+  --c-bg: #161616;
   --c-surface: #000000;
   --c-text: #ffffff;
   --c-primary: #5f78fb;
